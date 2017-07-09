@@ -16,6 +16,12 @@ WordPress连接微信小程序
 
    开源协议：MIT
 
+   
+# 体验我的小程序：
+![小程序二维码](https://liguangchun.cn/wp-content/uploads/2017/07/lgcewm-960x480.jpg) 
+
+
+
 # 技术支持微信：
 
 <img width="150" height="150" src="http://oss2.i-im.net/2016091610404856579587.png"/>
