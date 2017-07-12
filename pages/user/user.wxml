@@ -1,20 +1,23 @@
-
 <!--**
  * 
  * WordPress连接微信小程序
- * author: 李光春
- * detail：https://liguangchun.cn/26
- * oschina：http://git.oschina.net/aizhinengnet/wordpress-connect-wechat-applet
- * github: https://github.com/GC0202/WordPress-connect-WeChat-applet
- * coding：https://git.coding.net/liguangchun/WordPress-connect-WeChat-applet
+ * 作者 (author): 李光春 部分代码二次开发，谢谢好心人提醒（特别是那种使用别人的代码，而传说中的原来的作者代码也和别人的一样  （/笑脸）） （谁真谁假）
+ * 详述 (detail)：https://liguangchun.cn/26
+ * 码云 (oschina)：http://git.oschina.net/aizhinengnet/wordpress-connect-wechat-applet
+ * GitHub: https://github.com/GC0202/WordPress-connect-WeChat-applet
+ * 码云 (Gitee)：https://gitee.com/aizhinengnet/wordpress-connect-wechat-applet
+ * 码市 (Coding)：https://coding.net/liguangchun/WordPress-connect-WeChat-applet
+ * 阿里云 (aliyun): https://code.aliyun.com/GC/WordPress-connect-WeChat-applet
+ * CSDN: https://code.csdn.net/qq_25745249/wordpress-connect-wechat-applet
+ * GitLab：https://gitlab.com/liguangchun/WordPress-connect-WeChat-applet.git
+ * cooperation：https://www.oschina.net/p/wordpress-connect-wechat-applet
  * 技术支持微信号：GC19980202
- * 开源协议：MIT
- * Copyright (c) 2017 https://liguangchun.cn All rights reserved.
+ * The MIT License (MIT)
+ * Copyright (c) 2017 李光春
  * 
  */-->
  
-
-<!--user.wxml-->
+<!--pages/user/user.wxml-->
 <view class="page me">
     <view class="userinfo">
       <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
@@ -27,7 +30,7 @@
     <view class="about">
         <view class="about-item">
           <text class="about-item-title">关于项目</text>
-          <text class="about-item-content">使用WordPress的Api做微信小应用（实现了数据的读取、展示加载）</text>
+          <text class="about-item-content">使用WordPress的Api做微信小应用（实现了数据的读取、内容展示加载）</text>
         </view>
         <view class="about-item">
           <text class="about-item-title">官网地址</text>
@@ -35,7 +38,7 @@
         </view>
         <view class="about-item">
           <text class="about-item-title">公众号</text>
-          <text class="about-item-content link">李光春</text>
+          <text class="about-item-content ">李光春</text>
         </view>
         <view class="about-item">
           <text class="about-item-title">联系方式</text>
@@ -43,7 +46,7 @@
         </view>
         <view class="about-item">
           <text class="about-item-title">当前版本</text>
-          <text class="about-item-content ">V0.0.1 Beta</text>
+          <text class="about-item-content ">V1.1.0</text>
         </view>
     </view>
 </view>
